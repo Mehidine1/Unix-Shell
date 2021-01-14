@@ -1,5 +1,5 @@
-
-Operating Systems Project
+# Unix-Shell
+Multitasking Remote Unix shell
 
 Phase 3 Report-Upgrading the remote shell to a remote multitasking shell
 
@@ -127,5 +127,4 @@ PHASE3:
 We upgraded our remote shell to become a multitasking remote shell by allowing multiple clients to connect to one server and creating a thread for each client that takes the basic parameters in addition to a method void* ThreadRun (void * socket) that takes the client socket as parameter and handles the read/write operations between each client and server alone.
 Details of the code are found in the zip file, screenshot of the running code is provided below.
  
-# Unix-Shell
-Multitasking Remote Unix shell
+
